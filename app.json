@@ -1,0 +1,54 @@
+{
+  "expo": {
+    "name": "Build App",
+    "slug": "my-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/build.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "buildNumber": "1.0.01",
+      "bundleIdentifier": "com.shajidmahmud.myapp",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "versionCode": 1,
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false,
+      "package": "com.shajidmahmud.myapp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "updates": {
+      "enabled": true,
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/05fc495c-b929-4b2a-a94e-63bee9302994"
+    },
+    "plugins": [
+      "expo-updates"
+    ],
+    "owner": "shajid-mahmud",
+    "extra": {
+      "eas": {
+        "projectId": "05fc495c-b929-4b2a-a94e-63bee9302994"
+      }
+    }
+  }
+}
